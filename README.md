@@ -59,8 +59,8 @@ I'm Kamal Sroor, a full-time full-stack freelance developer ‍ working remotely
 
 ## Github Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kamalsroor&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kamalsroor&layout=compact&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kamalsroor1&show_icons=true&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kamalsroor1&layout=compact&theme=radical)
 
 ## Pinned
 
