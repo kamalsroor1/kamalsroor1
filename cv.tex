@@ -1,0 +1,249 @@
+\documentclass[10pt, a4paper]{article}
+
+% --- UNIVERSAL PREAMBLE BLOCK ---
+% تعديل الهوامش لتكون مريحة وتملأ الصفحة
+\usepackage[a4paper, top=1.15cm, bottom=1.15cm, left=1cm, right=1cm]{geometry}
+\usepackage{fontspec}
+\usepackage[english, bidi=basic, provide=*]{babel}
+\babelprovide[import, onchar=ids fonts]{english}
+
+% Set default font to Noto Sans
+\babelfont{rm}{Noto Sans}
+\babelfont{sf}{Noto Sans}
+
+% Helper packages
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{paracol} 
+\usepackage{hyperref}
+
+% زيادة تباعد الأسطر قليلاً لملء الصفحة براحة
+\linespread{1.05}
+
+% Setup Hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=RoyalBlue,
+    filecolor=RoyalBlue,
+    urlcolor=RoyalBlue,
+    pdftitle={Kamal Sroor - Senior Backend Developer},
+}
+
+% Column Separation
+\setlength{\columnsep}{0.04\textwidth}
+
+% Section Formatting
+\titleformat{\section}{
+  \vspace{4pt}\raggedright\large\bfseries\color{RoyalBlue}
+}{}{0em}{\MakeUppercase}[\color{Gray}\titlerule \vspace{4pt}]
+
+% Custom Commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{3pt}} % زيادة المسافة بين النقاط
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{10pt} % زيادة المسافة بين الوظائف لملء العمود
+  \item
+    \textbf{#1} \hfill {\footnotesize #2} \\ 
+    \textit{\small #3} \hfill {\footnotesize #4} \\
+    \vspace{4pt}
+}
+
+% Bullet point correction
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\begin{document}
+
+%----------HEADER----------
+\begin{center}
+    \textbf{\Huge KAMAL SROOR} \\ \vspace{5pt}
+    \textbf{\Large Senior Backend Developer} \\ \vspace{5pt}
+    \small
+    Al Marg, Cairo, Egypt \quad $\bullet$ \quad +20 101 231 6954 \quad $\bullet$ \quad \href{mailto:kamal.s.sroor@gmail.com}{kamal.s.sroor@gmail.com} \\ \vspace{3pt}
+    \href{https://www.linkedin.com/in/kamalsroor}{linkedin.com/in/kamalsroor} \quad $\bullet$ \quad 
+    \href{https://github.com/Kamalsroor}{github.com/Kamalsroor}
+\end{center}
+
+\vspace{10pt}
+
+%----------DOUBLE COLUMN START----------
+\columnratio{0.65} 
+\begin{paracol}{2}
+
+%----------MAIN COLUMN (LEFT)----------
+
+%----------SUMMARY----------
+\section{Executive Profile \& Core Expertise}
+Senior Backend Developer with 6+ years of experience architecting \textbf{SaaS} platforms, \textbf{Microservices}, and high-availability web applications. Expert in \textbf{PHP (Laravel)}, \textbf{SQL Performance Tuning}, and \textbf{Cloud Infrastructure}.
+
+\vspace{5pt}
+\textbf{Key Technical Highlights:}
+\begin{itemize}[leftmargin=0.2in, itemsep=2pt]
+    \item \textbf{System Architecture:} Designing Scalable RESTful APIs, Multi-tenant databases, and Event-driven systems.
+    \item \textbf{Performance:} Caching strategies (Redis), Query Optimization, and Load Balancing.
+    \item \textbf{DevOps Lifecycle:} Docker containerization, CI/CD automation (GitHub Actions), and AWS deployment.
+\end{itemize}
+
+%----------EXPERIENCE----------
+\section{Work Experience}
+\begin{itemize}[leftmargin=0.15in, label={}]
+
+    \resumeSubheading
+      {Senior Backend Developer}{Aug 2023 -- Present}
+      {Ibtikarat}{Riyadh, Saudi Arabia (Remote)}
+      \resumeItem{Spearheaded backend architecture for government digital transformation projects, scaling systems to support \textbf{10k+ daily active users} while maintaining \textbf{99.99\% uptime}.}
+      \resumeItem{Engineered a robust \textbf{Multi-tenant SaaS} core using Laravel \& Livewire, integrating 5+ third-party government APIs which expanded service capabilities by \textbf{40\%}.}
+      \resumeItem{Enforced OWASP security best practices and optimized SEO structure, directly contributing to a \textbf{15\% increase} in user retention and organic traffic.}
+
+    \resumeSubheading
+      {Senior Backend Developer \& Team Leader}{Jan 2023 -- Aug 2023}
+      {Developer Network}{Cairo, Egypt}
+      \resumeItem{Led the development of "Jarvis," a unified communication platform integrating \textbf{Meta (Facebook/WhatsApp) APIs} for enterprise customer support.}
+      \resumeItem{Optimized high-traffic endpoints by implementing \textbf{Redis caching} and refactoring Eloquent queries, achieving a \textbf{20\% reduction} in server response time.}
+      \resumeItem{Mentored a team of 3 developers on \textbf{SOLID principles}, TDD, and clean architecture, reducing post-release critical bugs by \textbf{30\%}.}
+
+    \resumeSubheading
+      {Senior Backend Developer}{Oct 2021 -- Dec 2022}
+      {Pyramids Freight}{Cairo, Egypt}
+      \resumeItem{Architected the backend for a logistics management system, integrating complex freight calculation logic and real-time tracking.}
+      \resumeItem{Implemented \textbf{Stripe Payment Gateway} with 3D Secure, streamlining transactions and reducing payment failures by \textbf{15\%}.}
+      \resumeItem{Refactored legacy SQL queries and database indexing, slashing average page load times by \textbf{50\%} (from 3s to 1.5s).}
+
+    \resumeSubheading
+      {Mid-Level Backend Developer}{Jun 2021 -- Oct 2021}
+      {Abudiyab Rent A Car}{Cairo, Egypt}
+      \resumeItem{Developed a car rental booking engine with dynamic pricing models, integrated with \textbf{Riyad Bank} and Mastercard payment providers.}
+      \resumeItem{Enhanced system observability and vehicle tracking API integrations, driving a \textbf{20\% surge} in SEO-driven traffic.}
+      \resumeItem{Collaborated with mobile teams to deliver optimized API payloads, improving mobile app booking conversions by \textbf{10\%}.}
+
+    \resumeSubheading
+      {Backend Developer}{Feb 2021 -- Jun 2021}
+      {ElNoor-Online}{Cairo, Egypt (Remote)}
+      \resumeItem{Maintained high-availability web services, ensuring business continuity through automated health checks and error logging (Sentry).}
+      \resumeItem{Optimized API response times by \textbf{25\%} through efficient data transformation and eager loading strategies.}
+      \resumeItem{Standardized API documentation using \textbf{Swagger/OpenAPI}, accelerating frontend-backend integration cycles by \textbf{15\%}.}
+
+    \resumeSubheading
+      {Backend Developer}{May 2020 -- Dec 2020}
+      {Innovation Hub}{Riyadh, Saudi Arabia (Remote)}
+      \resumeItem{Designed a scalable Laravel architecture supporting a \textbf{30\% user base growth} without infrastructure upgrades.}
+      \resumeItem{Modernized legacy codebases, reducing technical debt and improving maintainability scores by \textbf{40\%}.}
+      \resumeItem{Automated deployment workflows using \textbf{CI/CD pipelines}, reducing release times by \textbf{20\%} and eliminating manual errors.}
+
+    \resumeSubheading
+      {Team Leader \& Full Stack Developer}{Nov 2019 -- May 2020}
+      {CVC}{Cairo, Egypt}
+      \resumeItem{Managed a cross-functional Agile team of 5, ensuring \textbf{100\% on-time delivery} for client projects through effective sprint planning.}
+      \resumeItem{Conducted code reviews and technical workshops, elevating code quality standards across the department.}
+
+    \resumeSubheading
+      {Backend Developer}{Jul 2019 -- Nov 2019}
+      {G-TECH}{Cairo, Egypt}
+      \resumeItem{Developed modular PHP components, reducing development time for subsequent modules by \textbf{25\%}.}
+      \resumeItem{Implemented Redis caching layers, improving data retrieval performance by \textbf{40\%} for read-heavy operations.}
+
+\end{itemize}
+
+%----------SIDEBAR START (RIGHT)----------
+\switchcolumn
+
+%----------HARD SKILLS----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=4pt]
+    \small{
+     \item \textbf{Languages \& Frameworks:} \\ PHP 8+, Laravel, Livewire, Node.js, Express.js, Vue.js, Nuxt 3, TypeScript.
+     \item \textbf{Architecture \& Patterns:} \\ Microservices, MVC, RESTful APIs, SOLID, TDD (PHPUnit), Domain-Driven Design (DDD).
+     \item \textbf{Database \& Storage:} \\ MySQL, PostgreSQL, Redis (Caching/Queues), MongoDB, Eloquent ORM.
+     \item \textbf{DevOps \& Tools:} \\ Docker, Kubernetes (Basics), CI/CD (GitHub Actions), AWS, Nginx, Linux, Git.
+    }
+\end{itemize}
+
+%----------SOFT SKILLS----------
+\section{Soft Skills}
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=3pt]
+    \small
+    \item Team Leadership \& Mentoring
+    \item Strategic Problem Solving
+    \item Agile/Scrum Project Management
+    \item Cross-functional Collaboration
+\end{itemize}
+
+%----------PROJECTS (SIDEBAR)----------
+\section{Key Projects}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item \textbf{Review App} $|$ \href{https://reviewapp.sa/}{reviewapp.sa} \\
+    \footnotesize \textit{Laravel, Vue.js, MySQL} \\
+    \textbf{Scope:} B2B SaaS for reputation mgmt. \\
+    \textbf{Impact:} +20\% engagement via real-time notifs.
+    \vspace{6pt}
+    
+    \item \textbf{Theqa App} $|$ \href{https://theqa.app/}{theqa.app} \\
+    \footnotesize \textit{PHP, Secure API, OAuth2} \\
+    \textbf{Scope:} Secure QA platform. \\
+    \textbf{Impact:} 99.9\% availability for high-load APIs.
+    \vspace{6pt}
+
+    \item \textbf{Ettazenn} $|$ \href{https://ettazenn.com/}{ettazenn.com} \\
+    \footnotesize \textit{Laravel, Livewire, IoT APIs} \\
+    \textbf{Scope:} Health tracking ecosystem. \\
+    \textbf{Impact:} Integrated wearable device data.
+    \vspace{6pt}
+
+    \item \textbf{Al-Taawoun FC} $|$ \href{https://altaawounfc.com/}{altaawounfc.com} \\
+    \footnotesize \textit{Laravel, Redis, High-Traffic} \\
+    \textbf{Impact:} Zero downtime during traffic spikes.
+    \vspace{6pt}
+
+    \item \textbf{Store Platform} $|$ \href{https://mapp.sa/}{mapp.sa} \\
+    \footnotesize \textit{Multi-tenant Laravel} \\
+    \textbf{Scope:} Scalable multi-vendor e-commerce.
+    \vspace{4pt}
+    
+    \item \textbf{Sroor-Laravel-Payment} \\
+    \footnotesize \href{https://github.com/Kamalsroor/sroor-laravel-payment}{GitHub Package} \\
+    Open-source payment integration package.
+\end{itemize}
+
+\section{Other Projects}
+\small
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=3pt]
+    \item \href{https://hazelspaces.com/}{Hazel Spaces}
+    \item \href{https://www.rafeeg.ae/}{Rafeeg}
+    \item \href{https://www.pyramidsfreight.com/}{Pyramids Freight}
+    \item \href{https://www.madariskm.com/}{Madariskm LMS}
+    \item \href{https://wsa-events.com/}{WSA Events}
+    \item \href{https://oliviaclinics.com/}{Olivia Clinics}
+    \item \href{https://wsa-elite.com/}{WSA Elite}
+    \item \href{https://www.abudiyab-soft.com/}{Abudiyab Soft}
+\end{itemize}
+
+%----------EDUCATION----------
+\section{Education}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item \textbf{B.Sc. Management Information Systems} \\
+    New Cairo Academy \\
+    Cairo, Egypt \\
+    2020 -- 2024
+\end{itemize}
+
+%----------CERTIFICATIONS----------
+\section{Certifications}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item Docker \& CI/CD (2024)
+    \item Advanced PHP Optimization (2022)
+    \item Laravel Certification (2019)
+\end{itemize}
+
+%----------LANGUAGES----------
+\section{Languages}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item Arabic (Native)
+    \item English (Advanced)
+\end{itemize}
+
+\end{paracol}
+\end{document}
