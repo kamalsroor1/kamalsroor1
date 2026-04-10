@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=1A56DB&height=200&section=header&text=Kamal%20Sroor&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Senior%20Backend%20Engineer%20%7C%20NestJS%20%26%20Node.js%20%7C%20Laravel%20Expert&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=1A56DB&amp;height=200&amp;section=header&amp;text=Kamal%20Sroor&amp;fontSize=60&amp;fontColor=ffffff&amp;fontAlignY=38&amp;desc=Senior%20Backend%20Engineer%20%7C%20NestJS%20%26%20Node.js%20%7C%20Laravel%20Expert&amp;descAlignY=58&amp;descSize=18" width="100%"/>
 
 </div>
 
@@ -171,6 +171,6 @@ Node.js service for linking WhatsApp via QR code — enabling programmatic messa
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=1A56DB&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=1A56DB&amp;height=100&amp;section=footer" width="100%"/>
 
 </div>
