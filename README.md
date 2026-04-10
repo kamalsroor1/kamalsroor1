@@ -1,6 +1,7 @@
 <div align="center">
-<h1>👋 Hi, I'm Kamal Sroor</h1>
-<h3>Senior Backend Engineer · NestJS & Node.js · Laravel Expert</h3>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=1A56DB&height=200&section=header&text=Kamal%20Sroor&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Senior%20Backend%20Engineer%20%7C%20NestJS%20%26%20Node.js%20%7C%20Laravel%20Expert&descAlignY=58&descSize=18" width="100%"/>
+
 </div>
 
 ---
@@ -12,7 +13,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kamalsroor-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kamalsroor)
 [![GitHub](https://img.shields.io/badge/GitHub-kamalsroor1-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kamalsroor1)
 [![Email](https://img.shields.io/badge/Email-kamal.s.sroor@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kamal.s.sroor@gmail.com)
-[![Open to Work](https://img.shields.io/badge/Open%20to-Remote%20%26%20Relocation-22C55E?style=for-the-badge&logo=briefcase&logoColor=white)](#)
+[![Open to Work](https://img.shields.io/badge/Open%20to-Remote%20%26%20Relocation-22C55E?style=for-the-badge&logoColor=white)](#)
 
 </div>
 
@@ -46,7 +47,7 @@ I've shipped backends for **government digital transformation**, **multi-tenant 
 | | |
 |---|---|
 | 🔨 **Day job** | Migrating a **30-module / 650-table** legacy Zend system → modern Laravel at E2E County |
-| 🤖 **Built** | AI-assisted test pipeline that covered **1,600+ API endpoints** in record time (90%+ faster) |
+| 🤖 **Built** | AI-assisted test pipeline that covered **1,600+ API endpoints** (90%+ faster) |
 | 🛠️ **OSS** | [nest-scaffolding-crud-manager](https://github.com/kamalsroor1/nest-scaffolding-crud-manager) — CRUD auto-generation for NestJS |
 | 📦 **OSS** | [laravel-vue-modules](https://github.com/kamalsroor1/laravel-vue-modules) — HMVC scaffolding with built-in CRUD generator |
 
@@ -94,7 +95,6 @@ I've shipped backends for **government digital transformation**, **multi-tenant 
 `NestJS` `TypeScript` `Prisma`
 
 Auto-generates complete CRUD modules for NestJS — controllers, services, DTOs, and Prisma schema — from a single command.
-Built to eliminate boilerplate and speed up API development significantly.
 
 </td>
 <td width="50%">
@@ -113,7 +113,7 @@ Written before AI coding tools existed — pure DX obsession.
 ### 💳 [sroor-laravel-payment](https://github.com/kamalsroor1)
 `Laravel` `Multi-gateway`
 
-Open-source multi-gateway payment integration package for Laravel. Supports Stripe, local banks, and more.
+Open-source multi-gateway payment integration package for Laravel.
 
 </td>
 <td width="50%">
@@ -132,7 +132,7 @@ Node.js service for linking WhatsApp via QR code — enabling programmatic messa
 ## 🏆 Career Highlights
 
 ```
-🏢  E2E County         (Jun 2025 – Present)   → Legacy Zend → Laravel migration, 650+ tables, AI test pipeline
+🏢  E2E County         (Jun 2025 – Present)   → Legacy Zend → Laravel, 650+ tables, AI test pipeline
 🏢  Ibtikarat          (Aug 2023 – Jun 2025)   → Gov SaaS, 10k+ DAU, 99.99% uptime
 🏢  Developer Network  (Jan 2023 – Aug 2023)   → Meta API integration, Team Lead
 🏢  Pyramids Freight   (Oct 2021 – Dec 2022)   → Logistics platform, Stripe 3DS, -50% load time
@@ -144,6 +144,10 @@ Node.js service for linking WhatsApp via QR code — enabling programmatic messa
 ## 📊 GitHub Stats
 
 <div align="center">
+
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=kamalsroor1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
+&nbsp;
+![Top Languages](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kamalsroor1&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=kamalsroor1&theme=tokyonight&hide_border=true)
 
