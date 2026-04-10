@@ -145,7 +145,7 @@ Node.js service for linking WhatsApp via QR code — enabling programmatic messa
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats-git-master-grubersjoe.vercel.app/api?username=kamalsroor1&show_icons=true&theme=tokyonight&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com?user=kamalsroor1&theme=tokyonight&hide_border=true)
 
 </div>
 
