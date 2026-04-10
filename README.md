@@ -1,8 +1,6 @@
 <div align="center">
-![header](https://capsule-render.vercel.app/api?type=waving&color=1A56DB&height=180&section=header&text=Kamal%20Sroor&fontSize=55&fontColor=fff)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=1A56DB&height=200&section=header&text=Kamal%20Sroor&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Senior%20Backend%20Engineer%20%7C%20NestJS%20%26%20Laravel%20Expert&descAlignY=58&descSize=18" width="100%"/>
-
+<h1>👋 Hi, I'm Kamal Sroor</h1>
+<h3>Senior Backend Engineer · NestJS & Node.js · Laravel Expert</h3>
 </div>
 
 ---
