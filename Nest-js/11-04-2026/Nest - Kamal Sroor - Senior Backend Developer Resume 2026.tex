@@ -1,0 +1,278 @@
+\documentclass[10pt, a4paper]{article}
+
+% ─── PACKAGES ────────────────────────────────────────────────────────────────
+\usepackage[a4paper, top=0.9cm, bottom=0.9cm, left=0.9cm, right=0.9cm]{geometry}
+\usepackage{fontspec}
+\usepackage[english]{babel}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{needspace}
+\usepackage{paracol}
+\usepackage{microtype}
+
+% ─── FONTS ───────────────────────────────────────────────────────────────────
+\setmainfont{Noto Sans}[
+  BoldFont       = Noto Sans Bold,
+  ItalicFont     = Noto Sans Italic,
+  BoldItalicFont = Noto Sans Bold Italic
+]
+
+% ─── COLOURS ─────────────────────────────────────────────────────────────────
+\definecolor{Blue}{HTML}{1A56DB}
+\definecolor{Dark}{HTML}{1E293B}
+\definecolor{Mid}{HTML}{334155}
+\definecolor{Light}{HTML}{64748B}
+\definecolor{Rule}{HTML}{CBD5E1}
+\definecolor{BgHdr}{HTML}{EFF6FF}
+
+% ─── HYPERLINKS ──────────────────────────────────────────────────────────────
+\hypersetup{colorlinks=true, urlcolor=Blue, linkcolor=Blue,
+            pdftitle={Kamal Sroor - Senior Backend Engineer}}
+
+% ─── SPACING ─────────────────────────────────────────────────────────────────
+\linespread{1.0}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\columnsep}{0.035\textwidth}
+
+% ─── SECTION FORMAT ──────────────────────────────────────────────────────────
+% needspace ensures section heading never stranded alone at bottom of column
+\titleformat{\section}{%
+  \needspace{5\baselineskip}%
+  \vspace{6pt}\raggedright\normalsize\bfseries\color{Blue}%
+}{}{0em}{\MakeUppercase}[{\color{Rule}\vspace{2pt}\hrule height 0.5pt}\vspace{4pt}]
+
+\titlespacing{\section}{0pt}{2pt}{3pt}
+
+% ─── CUSTOM COMMANDS ─────────────────────────────────────────────────────────
+
+% Job header: title, company, dates, location
+\newcommand{\job}[4]{%
+  \vspace{5pt}%
+  {\bfseries\color{Dark}#1}\enspace{\color{Light}|}\enspace%
+  {\bfseries\color{Blue}#2}\hfill{\footnotesize\color{Light}#3}\\%
+  {\small\itshape\color{Light}#4}\vspace{2pt}%
+}
+
+% Bullet item
+\newcommand{\bitem}[1]{%
+  \item\small{\color{Mid}#1}%
+}
+
+% Sidebar label + value
+\newcommand{\slabel}[1]{{\small\bfseries\color{Dark}#1}\\[1pt]}
+\newcommand{\sval}[1]{{\small\color{Mid}#1}\\[7pt]}
+
+% Project entry in sidebar
+\newcommand{\proj}[4]{%
+  {\small\bfseries\color{Dark}#1}\enspace---\enspace\href{#3}{\small\color{Blue}#2}\\[1pt]%
+  {\footnotesize\color{Light}\textit{#4}}\\[6pt]%
+}
+
+% Open source entry
+\newcommand{\oss}[4]{%
+  {\small\bfseries\color{Dark}#1}\\[1pt]%
+  {\footnotesize\itshape\color{Light}#2}\\[1pt]%
+  \href{#3}{\footnotesize\color{Blue}#3}\\[2pt]%
+  {\small\color{Mid}#4}\\[8pt]%
+}
+
+% List settings
+\newenvironment{blist}{%
+  \begin{itemize}[leftmargin=0.18in, itemsep=1pt, topsep=1pt, parsep=0pt]%
+}{%
+  \end{itemize}%
+}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\begin{document}
+
+% ═══════════════════════════════════════════════════════════════════════════════
+%  HEADER
+% ═══════════════════════════════════════════════════════════════════════════════
+\colorbox{BgHdr}{%
+  \begin{minipage}{\dimexpr\linewidth-2\fboxsep\relax}
+    \vspace{8pt}
+    \begin{center}
+      {\huge\bfseries\color{Dark} KAMAL SROOR}\\[4pt]
+      {\large\color{Blue} Senior Backend Engineer\enspace·\enspace NestJS \& Node.js Specialist\enspace·\enspace Laravel Expert}\\[5pt]
+      {\small\color{Mid}
+        Cairo, Egypt\enspace·\enspace
+        Open to Remote \& Relocation\enspace·\enspace
+        +20 101 231 6954\enspace·\enspace
+        \href{mailto:kamal.s.sroor@gmail.com}{kamal.s.sroor@gmail.com}\\[2pt]
+        \href{https://www.linkedin.com/in/kamalsroor}{linkedin.com/in/kamalsroor}\enspace·\enspace
+        \href{https://github.com/kamalsroor1}{github.com/kamalsroor1}
+      }
+    \end{center}
+    \vspace{6pt}
+  \end{minipage}%
+}
+
+\vspace{10pt}
+
+% ═══════════════════════════════════════════════════════════════════════════════
+%  TWO-COLUMN BODY  (63% left / 37% right)
+% ═══════════════════════════════════════════════════════════════════════════════
+\columnratio{0.63}
+\begin{paracol}{2}
+
+% ───────────────────────────────────────────────────────────────────────────
+%  LEFT COLUMN
+% ───────────────────────────────────────────────────────────────────────────
+
+\section{Executive Profile}
+
+{\small\color{Mid}
+Self-taught developer since age 11 with 6+ years of professional experience.
+Transitioning from a deep \textbf{Laravel/PHP} background into \textbf{NestJS \& Node.js} architecture.
+Built and led backend systems for government digital transformation, SaaS platforms,
+and high-traffic applications across Egypt and Saudi Arabia.
+Author of open-source developer tooling with a focus on DX and automation.}
+
+\vspace{5pt}
+{\small\bfseries\color{Dark}Key Highlights:}
+\begin{blist}
+  \bitem{\textbf{Backend Architecture:} Scalable RESTful APIs with NestJS (TypeScript) \& Laravel (PHP 8+).}
+  \bitem{\textbf{Performance:} Redis caching, Prisma ORM, query optimisation — 10k+ DAU at 99.99\% uptime.}
+  \bitem{\textbf{Testing Innovation:} AI-assisted pipeline covering 1,600+ API endpoints (90\%+ time saved).}
+  \bitem{\textbf{DevOps:} Docker, CI/CD (GitHub Actions), AWS deployment \& Linux administration.}
+\end{blist}
+
+% ── EXPERIENCE ───────────────────────────────────────────────────────────────
+\section{Work Experience}
+
+\job{Senior Backend Developer}{E2E County}{Jun 2025 – Present}{Cairo, Egypt}
+\begin{blist}
+  \bitem{Led migration of a decade-old Zend Framework 1 monolith to a modern Laravel ecosystem — covering \textbf{30+ modules}, \textbf{650+ database tables}, and multiple DB connections, with 100\% data integrity maintained across 6 months.}
+  \bitem{Designed an \textbf{AI-assisted test automation pipeline} using Postman collections and table-level documentation; reduced test-writing time for \textbf{1,600+ API endpoints} by over \textbf{90\%}, freeing the team from boilerplate.}
+  \bitem{Collaborated in a large Agile squad (6 Backend, 7 Frontend, 4 QA, dedicated UI/UX) driving cross-team alignment and on-time delivery.}
+  \bitem{Introduced structured AI prompt templates \& test scripts adopted as team-wide QA standards.}
+\end{blist}
+
+\job{Senior Backend Developer}{Ibtikarat}{Aug 2023 – Jun 2025}{Riyadh, Saudi Arabia (Remote)}
+\begin{blist}
+  \bitem{Spearheaded backend architecture for government digital transformation projects scaling to \textbf{10k+ daily active users} at \textbf{99.99\% uptime}.}
+  \bitem{Engineered a \textbf{Multi-tenant SaaS} core with Laravel \& Livewire; integrated 5+ government APIs, expanding service capabilities by \textbf{40\%}.}
+  \bitem{Enforced OWASP security practices and optimised SEO structure, contributing to a \textbf{15\% increase} in user retention and organic traffic.}
+\end{blist}
+
+\job{Senior Backend Developer \& Team Lead}{Developer Network}{Jan 2023 – Aug 2023}{Cairo, Egypt}
+\begin{blist}
+  \bitem{Led development of \textit{Jarvis}, a unified communication platform integrating \textbf{Meta (Facebook/WhatsApp) APIs} for enterprise customer support.}
+  \bitem{Implemented \textbf{Redis caching} and refactored Eloquent queries, achieving \textbf{20\% reduction} in server response time on high-traffic endpoints.}
+  \bitem{Mentored 3 developers on SOLID principles, TDD, and clean architecture — reducing post-release critical bugs by \textbf{30\%}.}
+\end{blist}
+
+\job{Senior Backend Developer}{Pyramids Freight}{Oct 2021 – Dec 2022}{Cairo, Egypt}
+\begin{blist}
+  \bitem{Architected backend for a logistics management system with complex freight calculation logic and real-time tracking.}
+  \bitem{Integrated \textbf{Stripe Payment Gateway} with 3D Secure, reducing payment failures by \textbf{15\%}.}
+  \bitem{Refactored legacy SQL queries and database indexing, slashing page load times by \textbf{50\%} (3s → 1.5s).}
+\end{blist}
+
+\vspace{6pt}
+{\small\bfseries\color{Dark}Early Career (2019 – 2021)}\\
+{\small\itshape\color{Light}Mid-Level \& Backend Developer — Abudiyab Rent A Car · ElNoor-Online · Innovation Hub · CVC · G-TECH}
+\vspace{3pt}
+\begin{blist}
+  \bitem{Built a car rental booking engine with dynamic pricing; integrated Riyad Bank \& Mastercard; drove \textbf{20\% surge} in SEO-driven traffic.}
+  \bitem{Scaled Laravel architecture supporting \textbf{30\% user growth} without infrastructure upgrades; automated CI/CD pipelines cutting release time by \textbf{20\%}.}
+  \bitem{Implemented Redis caching layers improving read-heavy operations by \textbf{40\%}; standardised Swagger/OpenAPI docs cutting integration cycles by \textbf{15\%}.}
+\end{blist}
+
+% ───────────────────────────────────────────────────────────────────────────
+%  RIGHT COLUMN
+% ───────────────────────────────────────────────────────────────────────────
+\switchcolumn
+
+\section{Technical Skills}
+
+\slabel{Primary Stack (Current Focus)}
+{\small\bfseries\color{Blue}NestJS · Node.js · TypeScript · Prisma}\\[8pt]
+
+\slabel{Previous Stack}
+\sval{PHP 8+ · Laravel · Livewire}
+
+\slabel{Frontend}
+\sval{Vue.js · Nuxt 3 · Express.js}
+
+\slabel{Architecture \& Patterns}
+\sval{RESTful APIs · MVC · SOLID\\Domain-Driven Design · TDD}
+
+\slabel{Database \& Storage}
+\sval{MySQL · PostgreSQL · MongoDB\\Redis (Cache/Queues) · Prisma ORM\\Eloquent ORM}
+
+\slabel{DevOps \& Tooling}
+\sval{Docker · CI/CD (GitHub Actions)\\AWS · Nginx · Linux · Git\\Kubernetes (Basics)}
+
+\slabel{Testing \& QA}
+\sval{PHPUnit · Postman\\AI-assisted automation pipelines}
+
+% ── OPEN SOURCE ──────────────────────────────────────────────────────────────
+\section{Open Source}
+
+\oss{nest-scaffolding-crud-manager}%
+    {NestJS · TypeScript · Prisma}%
+    {https://github.com/kamalsroor1/nest-scaffolding-crud-manager}%
+    {Auto-generates full CRUD modules for NestJS — controllers, services, DTOs, Prisma schema. Significantly boosts developer productivity.}
+
+\oss{laravel-vue-modules (HMVC)}%
+    {Laravel · Vue.js · HMVC · CRUD Generator}%
+    {https://github.com/kamalsroor1/laravel-vue-modules}%
+    {HMVC scaffolding with built-in CRUD generator — written before AI tooling existed.}
+
+\oss{sroor-laravel-payment}%
+    {Laravel · Multi-gateway}%
+    {https://github.com/kamalsroor1}%
+    {Open-source multi-gateway payment integration package for Laravel.}
+
+% ── KEY PROJECTS ─────────────────────────────────────────────────────────────
+\section{Key Projects}
+
+\proj{Review App}{reviewapp.sa}{https://reviewapp.sa/}{B2B SaaS — reputation mgmt. +20\% engagement via real-time notifications.}
+\proj{Theqa App}{theqa.app}{https://theqa.app/}{Secure QA platform. 99.9\% availability for high-load APIs (OAuth2).}
+\proj{Ettazenn}{ettazenn.com}{https://ettazenn.com/}{Health tracking ecosystem with wearable IoT device integration.}
+\proj{Al-Taawoun FC}{altaawounfc.com}{https://altaawounfc.com/}{Zero downtime during peak traffic spikes via Redis.}
+\proj{Store (mapp.sa)}{mapp.sa}{https://mapp.sa/}{Scalable multi-vendor e-commerce on multi-tenant Laravel.}
+
+% ── SOFT SKILLS ──────────────────────────────────────────────────────────────
+\section{Soft Skills}
+
+{\small\color{Mid}
+▸ Team Leadership \& Mentoring\\[3pt]
+▸ Agile / Scrum Management\\[3pt]
+▸ Cross-functional Collaboration\\[3pt]
+▸ Strategic Problem Solving%
+}
+
+% ── EDUCATION ────────────────────────────────────────────────────────────────
+\section{Education}
+
+{\small\bfseries\color{Dark}B.Sc.\ Management Information Systems}\\
+{\small\color{Mid}New Cairo Academy · Cairo, Egypt}\\
+{\small\itshape\color{Light}2020 – 2024 \enspace|\enspace Self-taught developer since 2009}
+
+% ── CERTIFICATIONS ───────────────────────────────────────────────────────────
+\section{Certifications}
+
+{\small\color{Mid}
+▸ Docker \& CI/CD (2024)\\[3pt]
+▸ Advanced PHP Optimization (2022)\\[3pt]
+▸ Laravel Certification (2019)%
+}
+
+% ── LANGUAGES ────────────────────────────────────────────────────────────────
+\section{Languages}
+
+{\small\color{Mid}
+▸ Arabic — Native\\[3pt]
+▸ English — Advanced%
+}
+
+\end{paracol}
+\end{document}
