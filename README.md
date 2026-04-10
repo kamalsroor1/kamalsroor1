@@ -1,4 +1,5 @@
 <div align="center">
+![header](https://capsule-render.vercel.app/api?type=waving&color=1A56DB&height=180&section=header&text=Kamal%20Sroor&fontSize=55&fontColor=fff)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=1A56DB&height=200&section=header&text=Kamal%20Sroor&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Senior%20Backend%20Engineer%20%7C%20NestJS%20%26%20Laravel%20Expert&descAlignY=58&descSize=18" width="100%"/>
 
@@ -146,11 +147,7 @@ Node.js service for linking WhatsApp via QR code — enabling programmatic messa
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kamalsroor1&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
-&nbsp;&nbsp;
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kamalsroor1&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=kamalsroor1&theme=tokyonight&hide_border=true)
+![GitHub Stats](https://github-readme-stats-git-master-grubersjoe.vercel.app/api?username=kamalsroor1&show_icons=true&theme=tokyonight&hide_border=true)
 
 </div>
 
