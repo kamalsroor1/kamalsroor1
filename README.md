@@ -10,7 +10,7 @@
 
 ### 🚀 Self-taught since age 11 · 6+ years professional · Building things that scale
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-kamalsroor-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kamalsroor)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-kamalsroor-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kamal-sroor)
 [![GitHub](https://img.shields.io/badge/GitHub-kamalsroor1-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kamalsroor1)
 [![Email](https://img.shields.io/badge/Email-kamal.s.sroor@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kamal.s.sroor@gmail.com)
 [![Open to Work](https://img.shields.io/badge/Open%20to-Remote%20%26%20Relocation-22C55E?style=for-the-badge&logoColor=white)](#)
